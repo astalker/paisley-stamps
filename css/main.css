@@ -1,23 +1,21 @@
-body {font-family: Arial, Helvetica, sans-serif;margin:0;background:#ccc;font-size:1em;}
+body {font-family: Arial, Helvetica, sans-serif;margin:0;background:#ccc;font-size:13px;line-height:1.6em}
 a {color:#003399;text-decoration:none}
 a:link, a:visited, a:active {color:blue}
 a:hover {color: #666;}
 img {border:0}
 
-
-
 .c {clear:both;margin:0}
-h1 {font-size:1.1em;margin-top:0;color:#000;font-family:Times New Roman}
+h1 {font-size:1.6em;margin-top:0;color:#000;}
 h2 {font-size:1em;color:#39c;border-bottom:1px solid #39c}
 h3 {background:#9291ac;height:24px;text-align:center;font-size:1em;margin:5px 0 0 0;color:#000;padding:4px 0 0 0;border-bottom:3px solid #999;}
 
-table {background:#ffd;font-size:0.75em;width:100%;border-collapse:collapse;margin:0 0 15px 0}
+table {background:#ffd;width:100%;border-collapse:collapse;margin:0 0 15px 0}
 td {height:1.9em;border-bottom:1px solid #ddd}
-th {background:#f0f0f0;font-style:italic;text-align:center;font-size:1em;margin:0;color:#000;padding:2px 0;font-family:Times New Roman;text-align:left}
+th {background:#f0f0f0;font-style:italic;font-size:1em;margin:0;color:#000;padding:2px 0;text-align:left}
 
-a.nav {	font-size: 0.8em;}
+
 .bar {height: 149px;background-position: top;}
-.icon {float:left;margin:0px 10px 10px 0px}
+.icon {float:left;margin:0 10px 10px 0}
 
 #outer {width:760px;margin:auto;background:#fff;border:1px solid #333;position:relative}
 #inner {background:url(../images/menubar.jpg) no-repeat #999}
@@ -25,14 +23,14 @@ a.nav {	font-size: 0.8em;}
 #content {margin:10px 20px;padding:0 0 40px 0}
 
 #foot {clear:both;background:url(../images/foot.jpg) no-repeat;height:58px;margin:0;padding-top:1px;}
-#foot p {text-align:center;font-size:0.7em;margin-left:160px}
+#foot p {text-align:center;margin-left:160px}
 
 
 
 #header {background:url(../images/head.jpg) no-repeat;height:145px}
 ul#leftbar  {margin:0;width:150px;padding:0;position:absolute;left:15px;top:160px}
 #leftbar li {list-style:none;padding:2px 0;margin:0;width:135px;border-top:2px solid #333;text-align:center}
-#leftbar a {text-decoration:none;color:#000 !important;font-size:0.7em}
+#leftbar a {text-decoration:none;color:#000 !important;font-size:0.9em}
 #leftbar li.on {background:#cc9}
 
 td.l, th.l {width:120px}
@@ -40,5 +38,5 @@ td.r, th.r {width:120px}
 
 .menu3  {margin:0;width:150px;padding:0;position:absolute;left:15px;top:480px}
 .menu3 li {list-style:none;padding:2px 0;margin:0;width:135px;border-top:2px solid #333;text-align:center}
-.menu3 a {text-decoration:none;color:#000 !important;font-size:0.7em}
+.menu3 a {text-decoration:none;color:#000 !important;}
 .menu3 li.on {background:#cc9}
