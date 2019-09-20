@@ -1,7 +1,13 @@
-body {font-family: Arial, Helvetica, sans-serif;margin:0;font-size:13px;line-height:1.6em;background:#f0f0f0;}
-a {color:#003399;text-decoration:none}
-a:link, a:visited, a:active {color:blue}
-a:hover {color: #666;}
+body {font-family: Arial, Helvetica, sans-serif;margin:0;font-size:15px;line-height:1.6em}
+a {
+    color:#0645ad;
+}
+a:link, a:visited, a:active {
+    color: #0645ad
+}
+a:hover {
+    color: #333;
+}
 img {border:0}
 
 .c {clear:both;margin:0}
@@ -17,19 +23,44 @@ tr:nth-of-type(2n) td {background:#f0f0f0;}
 .bar {height: 149px;background-position: top;}
 .icon {float:left;margin:0 10px 10px 0}
 
-#outer {width:760px;margin:auto;background:#fff;border:1px solid #dddddd;border-bottom:0;position:relative}
-#inner {}
-#main {float:right;width:593px;display:inline;background:#fff;}
-#content {margin:10px 20px;padding:0 0 40px 0}
+#outer {width:796px;margin:auto;background:#fff;border-bottom:0;position:relative}
+#main {
+    width:630px;
+    margin-left: 166px;
+    background:#fff;
+}
+#inner {
+    padding-top: 30px;
+}
 
 #foot {clear:both;height:58px;margin:0;padding-top:1px;font-size:0.8em;}
 #foot p {text-align:center;}
 
-#header {background:url(../images/head.jpg) no-repeat;height:145px}
-ul#leftbar  {margin:0;width:168px;padding:0;position:absolute;left:0;top:123px;background:white;padding-top:20px;}
-#leftbar li {list-style:none;padding:2px 0;margin:10px 0 10px 10px;width:135px;text-align:left;border-bottom:1px solid #ccc}
-#leftbar a {text-decoration:none;color:#000 !important;font-size:0.9em}
-#leftbar li.on {font-weight:bold;font-style:italic}
+#header {background:url(../images/head.jpg) no-repeat;height:123px}
+ul#leftbar  {
+    margin:0;
+    width:140px;
+    padding:0;
+    position:absolute;
+    left:0;
+    top:123px;
+    background:white;
+    padding-top:60px;
+}
+#leftbar li {
+    list-style: none;
+    padding: 2px 0;
+    margin: 5px 0 5px 0;
+    width: 135px;
+    text-align: left;
+}
+#leftbar a {
+    font-size: 1em;
+}
+#leftbar li.on a {
+    color: #333;
+    font-weight: bold;
+}
 
 td.l, th.l {width:120px}
 td.r, th.r {width:120px}
